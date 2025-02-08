@@ -17,7 +17,8 @@ const Payments = () =>{
         if(!phone) return alert("Phone is required!")
             else {
         
-               
+                alert("successfully Payed The Money");
+                clearCart(Products)
         };
     }
 
